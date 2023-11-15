@@ -4,15 +4,61 @@
 
 /* Box Model Hack */
 *{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
+
+
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+
+html{
+  max-width: 1440px;
+
+}
+
+body{
+  color: #160EAA;
+  min-height: 100vh;
+  
+  background: #fffcf0;
+  background-size: cover;
+  background-position: center;
+  
+
+}
+
+.pageContainer{
+  max-width: 1440px;
+}
+
+#top-banner{
+  position: top;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 69px;
+  background: #C6E5CD;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+#aref {
+  text-decoration: underline;
+}
+
+@media(max-width: 1440px){
+  
+}

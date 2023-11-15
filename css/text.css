@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Larsseit";
+    src: url('font/Larsseit.eot'); 
+src: url('font/Larsseit.eot?#iefix') format('embedded-opentype'), 
+url('font/Larsseit.woff2') format('woff2'), 
+url('font/Larsseit.woff') format('woff'), 
+url('font/Larsseit.ttf')  format('truetype'), 
+url('font/Larsseit.svg#svgFontName') format('svg'); 
+
+font-family: "Larsseit-Bold";
+src: url('font/Larsseit-Bold.eot'); 
+src: url('font/Larsseit-Bold.eot?#iefix') format('embedded-opentype'), 
+url('font/Larsseit-Bold.woff2') format('woff2'), 
+url('font/Larsseit-Bold.woff') format('woff'), 
+url('font/Larsseit-Bold.ttf')  format('truetype'), 
+url('font/Larsseit-Bold.svg#svgFontName') format('svg');
+}
+body { 
+    font-family: Larsseit;
+}
+
+#underline {
+    text-decoration: underline;
+}
