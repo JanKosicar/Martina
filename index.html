@@ -22,15 +22,11 @@
             url('font/Larsseit.svg#svgFontName') format('svg'); 
         }
 
-        body {
-            font-family: "Larsseit";
-        }
-
         @font-face {
             font-family: "Larsseit-Bold";
             src: url('font/Larsseit-Bold.eot'); 
             src: url('font/Larsseit-Bold.eot?#iefix') format('embedded-opentype'), 
-            url('font/Larsseit-Bold.woff2') format('woff2'), 
+            url(/font/Larsseit\ Regular/Larsseit.woff2) format('woff2'), 
             url('font/Larsseit-Bold.woff') format('woff'), 
             url('font/Larsseit-Bold.ttf')  format('truetype'), 
             url('font/Larsseit-Bold.svg#svgFontName') format('svg');
@@ -45,15 +41,414 @@
 <body>
 <div class="pageContainer">
 
-    <div class="sectionGrid">Section 1</div>
-    <div class="sectionGrid">Section 2</div>
-    <div class="sectionGrid">Section 3</div>
-    <div class="sectionGrid">Section 4</div>
-    <div class="sectionGrid">Section 5</div>
-    <div class="sectionGrid">Section 6</div>
-    <div class="sectionGrid">Section 7</div>
-    <div class="sectionGrid">Section 8</div>
-    <div class="sectionGrid">Section 9</div>
+    <!--header section-->
+    <header class="headerSection">
+        <div class="topBanner">
+            <div class="containerFluid">
+                <div class="notification">
+                    
+                    <span class="attention">Upozornění na omezení provozu</span>
+                    
+                    <div class="bannerRight">
+                    <span class="notice">Dovolená od 2. do 9. září</span>
+                    
+                    <a class="moreInfo" href="#">Více informací</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="headerBottom">
+            <div class="containerFluid">
+                <nav class="navbar">
+                    <div class="logo">
+                    <h2>MUDr. Jana Matějková</h2>
+                    <h3>Lékařka pro děti a dorost</h3>
+                    </div>
+
+                    <button class="navbarToggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""> </span>
+                    </button>
+
+                    <div class="collapseNavbarCollapse" id="navbarSupportedContent">
+                        <ul class="navbaNav ">
+                          <li class="navItemActive">
+                            <a class="navLink" href="index.html">Naše ordinace<span class="srOnly">(current)</span></a>
+                          </li>
+                          <li class="navItem">
+                            <a class="navLink" href="#">Ordinační hodiny</a>
+                          </li>
+                          <li class="navItem">
+                            <a class="navLink" href="#">Rady a tipy</a>
+                          </li>
+                          <li class="navItem">
+                            <a class="navLink" href="#">Kontakt</a>
+                          </li>
+                        </ul>
+                      </div>
+                </nav>
+
+            </div>
+
+        </div>
+    </header>
+    
+    <!--open-->
+    <section class="sliderSection">
+        <div class="container">
+            <div class="row">
+                <div class="colMd6">
+                    <div class="detailBox">
+                        <h1>Máme otevřeno. Ordinujeme do 13 h.</h1>
+                        <a class="openingHours" href="#">Ordinační hodiny</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mainInfo">
+        <div class="mainContact">
+            <div class="mainContactContainer">
+                <img class="phoneIcon" src="/img/telefon.svg">
+                <div class="mainConsult">
+                    <a href="tel:+420777777777">+420777777777</a>
+
+                    <span>Konzultace, výsledky od 10:00 do 10:30
+                    V akutních případech volejte kdykoliv</span>
+
+                    <a href="#">Co dělat když nejsme dostupní</a>
+            
+                </div>
+            </div>
+
+                <div class="post">
+                    <img src="/img/Email.svg">
+                    <a href="#">Objednání, posudek, potvrzení</a>
+
+                </div>
+        
+            
+        
+        </div>
+
+       <img class="welcomePhoto" src="/img/MatejkovaVnoucata.png"> 
+
+    </section>
+    
+    <!--Doctors Office section-->
+
+    <section class="doctorsOffice">
+        
+        <div class="officeHeading">
+            <h2>Naše ordinace</h2>
+            <div>
+                <a href="#">Registrace miminka</a>
+            </div>
+        </div>
+
+        <p>Pečujeme o děti od narození do 19 let. Poskytujeme léčebnou a preventivní péči, nepovinná očkování, laktační a výživové poradenství a nadstandardní služby dle domluvy. Máme dlouholetou praxi a neustálý zájem o další vzdělávání. Registrace miminka je možná již před narozením.<b>
+            <a  href="#">Profil lékařky</a></p>
+
+        <div class="officeNav">
+            <a href="#">Naše služby</a>
+            <a href="#">Přístrojové vybavení</a>
+            <a href="#">Ceník</a>
+            <a href="#">Aktuality</a>
+        </div>
+
+        
+
+    </section>
+
+    <section class="insuranceLogo">
+        <div class="insuranceLogo">
+            <img src="/img/VZP.svg" alt="Všeobecná zdravotní pojišťovna" title="Všeobecná zdravotní pojišťovna">
+            <img src="/img/VOZP.svg" alt="Vojenská zdravotní pojišťovna" title="Vojenská zdravotní pojišťovna">
+            <img src="/img/Čpzp.svg" alt="Česká průmyslová zdravotní pojišťovna" title="Česká průmyslová zdravotní pojišťovna">
+            <img src="/img/OZP.svg" alt="Oborová zdravotní pojišťovna" title="Oborová zdravotní pojišťovna">
+            <img src="/img/zpmv.svg" alt="Zdravotní pojišťovna ministerstva vnitra" title="Zdravotní pojišťovna ministerstva vnitra">
+            <img src="/img/RBP.svg" alt="RBP, zdravotní pojišťovna" title="RBP, zdravotní pojišťovna">
+        </div>
+    </section>
+
+    <!--Staff section-->
+
+    <section class="staff">
+        <div class="staffContainer">
+        <div class="staffJanaMatejkova">
+            <img src="/img/JanaMatejkovaOrdinace.png" alt="Jana Matějková">
+            <div>
+
+                <h3>MUDr. Jana Matějková</h3>
+                <p>Více než 23 let jsem působila v Nemocnici Písek. V průběhu let jsem pracovala jako vedoucí nedonošeneckého oddělení, zástupce primáře dětského oddělení a vedla jsem endokrinologickou a diabetologickou poradnu. Svým pacientům naslouchám, řídím se postupy západní medicíny a ráda používám selský rozum. Jsem aktivním člověkem a hlavně spokojenou babičkou.</p>
+            </div>
+
+        </div>
+        <div class="staffIrenaPodlahova">
+            <img src="/img/IrenaPodlahovaOrdinace.png" alt="Irena Podlahová" title="Irena Podlahová"> 
+            <div>
+
+                <h3>Irena Podlahová</h3>
+                <p>Společně s Janou jsem léta působila na dětském oddělení v písecké nemocnici. Také mám zkušenosti z dětské neurologie i nedonošeneckého oddělení. Děti jsou moje poslání.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!--Slider section-->
+
+    <section class="photoSlider">
+
+        <div class="sliderContainer">
+            
+            <img src="/img/Ordinace.png" alt="">
+            <img src="/img/JanaMatejkovaOrdinaceZofka.png" alt="">
+            <img src="/img/ordinaceVchod.png" alt="">
+        </div>
+
+    </section>
+
+    <section class="rewievFromPatients">
+        <h2>Ohlasy pacientů</h2>
+        <div class="patientRewiev">
+            
+            <img src="/img/PetrKolinskyHerec.png" alt="Petr Kolínský" title="Petr Kolínský">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, accusamus beatae harum vitae inventore illo eos nisi sint et aspernatur autem aliquam quam tenetur consectetur asperiores quasi nihil. Nam, necessitatibus?</p>
+                <span>Petr Kolínský, herec</span>
+            </div>
+
+        </div>
+            
+        <div class="otherRewievs">
+                <h3>Přečtěte si další nezávislé recenze</h3>
+                <div class="searchEngine">
+                    <a href="#">Známý lékař</a>
+                    <a href="#">Seznam</a>
+                    <a href="#">Google</a>
+                </div>
+        </div>
+        
+    </section>
+
+    <!--officeHours-->
+
+    <section class="officeHours">
+
+        <h2>Ordinační hodiny</h2>
+
+        <h5>Chod ordinace</h5>
+
+        <p>Rozdělujeme ordinační hodiny tak, abychom nemíchali zdravé pacienty s nemocnými a předešli tak přenosu nemocí. Děkujeme Vám, že to respektujte a pomáháte nám chránit ostatní pacienty.</p>
+
+        <table>
+            <thead>
+              <tr class="odd">
+                <td></td>
+                <th>Odběry a výtěry</th>
+                <th>Nemocní</th>
+                <th>Výsledky a konzultace</th>
+                <th>Pouze objednaní (prevence, očkování)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="even">
+                <td class="day">Po</td>
+                <td class="available">07:30 — 08:00</td>
+                <td class="available">08:00 — 10:00</td>
+                <td class="available">10:00 — 10:30</td>
+                <td class="available">12:00 — 15:30</td>
+              </tr>
+              <tr class="odd">
+                <td class="day">Út</td>
+                <td class="available">07:30 — 08:00</td>
+                <td class="available">08:00 — 10:00</td>
+                <td class="available">10:00 — 10:30</td>
+                <td class="available">12:00 — 15:00</td>
+            </tr>
+              <tr class="even">
+                <td class="day">St</td>
+                <td class="available">07:30 — 08:00</td>
+                <td class="available">08:00 — 09:30</td>
+                <td class="available">09:30 — 10:00</td>
+                <td class="available">14:00 — 18:00</td>
+              </tr>
+              <tr class="odd">
+                <td class="day">Čt</td>
+                <td class="available">07:30 — 08:00</td>
+                <td class="available">08:00 — 10:00</td>
+                <td class="available">10:00 — 10:30</td>
+                <td class="available">12:00 — 15:30</td>
+              </tr>
+              <tr class="even">
+                <td class="day">Pá</td>
+                <td class="available">07:30 — 08:00</td>
+                <td class="available">08:00 — 10:00</td>
+                <td class="available">10:00 — 10:30</td>
+                <td class="available">10:30 — 12:00</td>
+              </tr>
+            </tbody>
+          </table>
+    </section>
+
+    <section class="adviceAndTips">
+        <div class="adviceAndTipsInside">
+            <h2>Rady a tipy</h2>
+            <h3>První pomoc</h3>
+        </div>
+
+            <div class="adviceContainer">
+                <div>
+                    <span>Kontakty a pohotovostní služby</span>
+                </div>
+                <div>
+                    <span>Co s teplotou a počínající virosou</span>
+                </div>
+                <div>
+                    <span>Jak léčit horečku</span>
+                </div>
+                <div>
+                    <span>Co dělat při požití neznámé nebo jedovaté látky</span>
+                </div>
+            </div>
+            <div class="adviceAndTipsInside">
+            <h3>Prohlídky a posudky</h3>
+            </div>
+            <div class="adviceContainer">
+                <div>
+                    <span>Preventivní prohlídky</span>
+                </div>
+                <div>
+                    <span>Vystavení posudku</span>
+                </div>
+                <div>
+                    <span>Sportovní prohlídky</span>
+                </div>
+            </div>
+            <div class="adviceAndTipsInside">
+            <h3>Doporučení a tipy</h3>
+            </div>
+            <div class="adviceContainer">
+                <div>
+                    <span>Lékárnička na dovolenou</span>
+                </div>
+                <div>
+                    <span>Volitelné nadstandartní očkování</span>
+                </div>
+                <div>
+                    <span>Vyšetření sluchu dítěte v 5 letech věku</span>
+                </div>
+                <div>
+                    <span>Nášničky pro holčičky</span>
+                </div>
+            </div>
+        
+
+
+    </section>
+
+    <section class="contactInfo">
+
+        <h2>Kontakt</h2>
+
+        <div class="contactContainerTel">
+            <div class="contactContainerTelinside">
+
+                <img src="/img/telefon.svg" alt="phone symbol">
+
+                <a href="#" aria-label="Zavolat do ordinace">+420 777 777 777</a>
+
+
+            </div>
+
+            <ul>
+                
+                <li>V akutních případech volejte kdykoliv v ordinačních hodinách</li>
+                <li>Na výsledky výtěrů a ostatních vyšetření volejte 10:00 – 10:30 hodin, dříve nemáme výsledky k dispozici.</li>
+                <li>Pokud vám telefon nezvedáme, věnujeme se momentálně jinému pacientovi.</li>
+                <li><a href="#" aria-label="Co dělat když tu nejsme">Co dělat když tu nejsme</a></li>
+
+            </ul>
+        
+            <div class="contactContainerEmail">
+
+                <img src="/img/Email.svg" alt="post symbol ">
+                <a href="#" aria-label="Napsat email">email@matejkova.cz</a>
+
+            </div>
+
+            <div class="emailList">
+
+                <h5>V neakutních případech nám prosím pište. Emailem vyřešíme:</h5>
+                
+                    <ul>
+                        <li>žádosti o registraci vašeho dítěte nebo novorozence</li>
+                        <li>potřeby vystavení lékařského posudku</li>
+                        <li>odeslání opakujícího se receptu</li>
+                        <li>nahlášení změny bydliště</li>
+                        <li>nahlášení změny telefonního kontaktu</li>
+                        <li>nahlášení změny zdravotní pojišťovny</li>
+                    </ul>
+                <p>Na váš mail odpovíme. Mailem nelze řešit akutní stav. Stejně tak nemůžeme komunikovat v době nepřítomnosti v ordinaci. Děkujeme za pochopení.</p>
+        
+            </div>
+
+        
+
+            <div class="contactContainerAddress">
+
+                <div class="contactContainerAddressInside">
+
+                    <img src="/img/špendlík.svg" alt="place symbol">
+                    <h5>Kde nás najdete?</h5>
+                    <address><a href="https://www.google.com/maps/place/Karla+%C4%8Capka+2459%2F5,+397+01+P%C3%ADsek+1-Bud%C4%9Bjovick%C3%A9+P%C5%99edm%C4%9Bst%C3%AD/@49.303989,14.1555119,17z/data=!4m6!3m5!1s0x470b4ff079438579:0xe0d9df31ed200fbd!8m2!3d49.303989!4d14.1555119!16s%2Fg%2F11bw3_6_5v?entry=ttu">Karla Čapka 2459/5</a></address>
+                   
+                </div>
+                   
+                    <img class="childCar" src="/img/Auto.svg" alt="#">
+                    
+                
+
+            </div>
+
+        </div>
+        
+        <div class="ordinancePhoto">
+
+            <img src="/img/ordinaceNemocnice.png" alt="">
+            <img src="/img/ordinaceVchod.png" alt="">
+        
+        </div>
+
+        <div class="buildingDescription">
+
+            <span>Budova přes parkoviště naproti hlavnímu vchodu do nemocnice.<br> Vchod z pravé strany blíže cukráně. Parkoviště přímo u budovy.</span>
+
+        </div>
+
+        
+
+    </section>
+
+<footer>
+    <div class="footer">
+        
+            <img class="footerFirstImg" src="/img/Logo EU.svg" alt="EU">
+            <img src="/img/Logo MK.svg" alt="Ministertvo kultury">
+            <img src="/img/Logo NPO.svg" alt="Národní plán obnovy">
+            
+            <p>Byl realizován projekt 0380000781 – Redesign webových stránek, zaměřený na zkvalitnění online prezentace matejkovajana.cz, financovaný Evropskou unií – Next Generation EU</p>
+   
+    </div>
+    
+    <a class="marathonSign" href="#">Webdesign Marathon Studio</a>
+</footer>
+
     
 </div>
 </body>
+
+
+
+<!-- Include the external JavaScript file -->
+<script src="/JS/script.js"></script>

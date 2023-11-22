@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 
 
@@ -17,36 +18,720 @@
 /*******************************************/
 
 html{
-  max-width: 1440px;
+  
 
 }
+
+
+
+
 
 body{
+  font-family: "Larsseit", sans-serif;
   color: #160EAA;
-  min-height: 100vh;
-  
   background: #fffcf0;
-  background-size: cover;
-  background-position: center;
-  
+  letter-spacing: 0px;
+  opacity: 1;
 
 }
+
+/*header section*/
 
 .pageContainer{
-  max-width: 1440px;
+  position: relative;
 }
 
-#top-banner{
-  position: top;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 69px;
+.topBanner{
   background: #C6E5CD;
+  height: 69px;
+  
+}
+
+
+
+.notification{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  
+
+}
+
+.attention{
+  font-size: 16px;
+  flex-shrink: 0;
+  padding: 28px 0 0 71px; 
+}
+
+.bannerRight{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: text-bottom;
+}
+
+.notice{
+  font-size: 24px;
+  margin-right: 24px;
+  font: medium
+}
+
+.moreInfo{
+  padding: 28px 71px 0 1px;
+  font-size: 16px;
+
+}
+
+/* Navbar section */
+
+.logo {
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+
+}
+
+.headerBottom h2{
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 70px;
+}
+
+.headerBottom h3{
+  padding-left: 70px;
+}
+
+.navbar{
   display: flex;
   justify-content: space-between;
+
+}
+
+.navbaNav {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  
+
+}
+
+.navLink{
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+
+
+/* end of Navbar */
+
+.detailBox{
+  text-align: center;
+}
+
+
+
+.mainInfo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainContact{
+display: flex;
+flex-direction: column;
+margin-left: 9.3%;
+
+}
+
+.mainContactContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+.mainContactContainer :nth-child(1) {
+  font-size: 30px;
+  text-decoration: none;
+  align-self: self-start;
+}
+
+.mainContactContainer :nth-child(2){
+  margin-top: 15px;
+  font-size: 22px;
+  max-width: 369px;
+}
+
+.mainContactContainer :nth-child(3){
+  margin-top: 17px;
+  font-size: 22px;
+  align-self: self-start;
+}
+
+
+.phoneIcon{
+max-height: 135.74px;
+margin-right: 30px;
+
+
+}
+
+.mainConsult{
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
+
+.post{
+display: flex;
+align-items: center;
+
+}
+
+.post img{
+  margin: 0 30px 0 14px;
+}
+
+.post a {
+  font-size: 22px;
+}
+
+.welcomePhoto{
+  position: relative;
+  right: 0 ;
+  top: 0 ;
+  
+  
+}
+
+
+
+/*ordinance section*/
+.doctorsOffice{
+  background-color: #FFEDA3;
+  padding: 130px 0 100px 10.4%;
+  
+}
+
+.doctorsOffice h2{
+  font-size: 65px;
+  margin-right: 377px;
+}
+
+.officeHeading{
+  display: flex;
+  flex-direction: row;
+  
+  margin-bottom: 75px;
+
+}
+
+.officeHeading div{
+  background-color: #FFFCF0;
+  font-size: 30px;
+  width: 322px;
+  height: 69px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+}
+
+.officeHeading a{
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.doctorsOffice p{
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  margin-right: 11.7%;
+
+}
+
+.doctorsOffice p a{
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.officeNav{
+  font-size: 22px;
+  font-weight: normal;
+  margin-top: 60px;
+}
+
+.officeNav a{
+  margin-right: 50px;
+}
+
+
+/* InsuranceLogo */
+
+.insuranceLogo {
+  background-color: #fffcf0;
+  height: 91 px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 18px 0 18px 0;
+}
+
+.insuranceLogo img{
+  margin-right: 60px;
+
+}
+
+.insuranceLogo :nth-last-of-type(1){
+  margin-left: 5%;
+}
+
+
+/* Staff section */
+
+.staff{
+  background: #FFEDA3;
+  padding-top: 40px;
+}
+
+.staffJanaMatejkova{
+  display: flex;
+  flex-direction: row;
+}
+
+.staffContainer{
+  margin: 0 0 0 8.4%;
+}
+
+.staffJanaMatejkova div{
+  margin: 103px 0 0 100px;
+
+}
+
+.staffJanaMatejkova h3{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.staffJanaMatejkova p{
+  margin-top: 18px;
+  font-size: 22px;
+}
+
+
+.staffIrenaPodlahova{
+  display: flex;
+  flex-direction: row;
+}
+
+.staffIrenaPodlahova img{
+  margin: 10px 0 0 205px;
+}
+
+.staffIrenaPodlahova div{
+  margin: 60px 0 0 25px;
+}
+
+.staffIrenaPodlahova h3{
+  font-size: 30px;
+  font-weight: bold;
+
+}
+
+.staffIrenaPodlahova p{
+  margin-top: 18px;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+/* Slider section */
+
+.photoSlider{
+  padding: 10px 0 10px 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.sliderContainer{
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sliderContainer img{
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+/* Rewiev From Patients section */
+
+.rewievFromPatients{
+  background-color: #FFEDA3;
+  padding: 100px 0 100px 10.4%;
+}
+
+.rewievFromPatients h2{
+  font-size: 45px;
+  margin-bottom: 40px;
+}
+
+.patientRewiev{
+  background: #FFFCF0;
+  display: flex;
+  flex-direction: row;
+  padding: 60px 0 60px 50px;
+  width: 1050px;
+  border-radius: 22px ;
+}
+
+
+.patientRewiev div{
+  display: flex;
+  flex-direction: column;
+}
+
+.patientRewiev img{
+margin-right: 15px;
+max-width: 100%;
+height: 205px;
+width: auto;
+
+}
+
+.patientRewiev p{
+  font-size: 28px;
+  width: 700px;
+  margin-bottom: 22px;
+}
+
+.patientRewiev span{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.otherRewievs{
+  margin-left: 10.2%;
+}
+
+.otherRewievs h3{
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.searchEngine{
+  font-size: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 362px;
+}
+
+.otherRewievs a{
+  font-size: 22px;
+
+}
+
+/* Office Hours section */
+
+.officeHours{
+  padding: 82px 0 100px 10.4%;
+   
+
+}
+
+.officeHours h2{
+  font-size: 65px;
+}
+
+.officeHours h5{
+  margin-top: 75px;
+  font-size: 30px;
+}
+
+.officeHours p{
+  margin-top: 30px;
+  font-size: 22px;
+  width: 700px;
+}
+
+.officeHours table{
+  height: 330px;
+  width: 928px;
+  margin-top: 40px;
+  text-align: center;
+  border-radius: 22px;
+}
+
+.even {
+  background-color:#F5EBE1;
+}
+
+.odd {
+  background-color: #C6E5CD;
+}
+
+thead th {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+thead {
+  height: 80px;
+}
+
+th {
+min-width: 200px;
+}
+
+.day {
+  font-size: 22px;
+  font-weight: bold;
+  padding-left: 41px;
+  padding-right: 10px;
+  
+}
+
+tr {
+  height: 50px;
+}
+
+.available {
+  font-size: 22px;
+}
+
+
+/*advice and tips section*/
+
+
+
+.adviceAndTips {
+  background-color: #D6EDF0;
+  padding: 82px 0 100px 10.4%;
+}
+
+.adviceAndTipsInside > h2{
+  font-size: 65px;
+  margin-bottom: 5px ;
+}
+
+.adviceAndTipsInside > h3{
+  font-size: 45px ;
+  margin: 60px 0 30px 0;
+
+}
+
+.adviceAndTipsInside{
+  width: 800px;
+  
+ 
+}
+
+.adviceContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  
+  
+
+}
+
+.adviceContainer div{
+  background-color: #FFFCF0;
+  font-size: 30px;
+  width: 800px;
+  margin-bottom: 10px;
+  height: 76px;
+  border-radius: 22px;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+.adviceContainer span{
+  margin-left: 40px;
+}
+
+/*contact info section*/
+
+.contactInfo{
+  padding: 82px 0 0 10.4%;
+}
+
+.contactInfo > h2{
+  font-size: 65px;
+  font-weight: bold;
+}
+
+
+
+.contactContainerTel > ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 22px;
+  margin-top: 16.84px;
+
+}
+
+.contactContainerTel > li{
+  margin-bottom: 25px;
+  
+}
+
+.contactContainerTelinside{
+  display: flex;
+  align-items: center;
+}
+
+.contactContainerTelInside > img{
+max-width: 136px;
+}
+
+.contactContainerTelinside > a{
+  font-size: 45px;
+  margin-left: 30px;
+  text-decoration: none;
+
+}
+
+.contactContainerEmail{
+  display: flex;
+  align-items: center;
+}
+
+
+.contactContainerEmail > img{
+  max-width: 121.35px ;
+}
+
+.contactContainerEmail > a{
+  font-size: 45px;
+  margin-left: 30px;
+  text-decoration: none;
+
+}
+
+
+
+.emailList h5, .emailList p{
+  font-size: 22px;
+}
+
+.emailList ul{
+  list-style-position: inside;
+  font-size: 22px;
+}
+
+.contactContainerAddress > img{
+  max-width: 131.12px;
+}
+
+.contactContainerAddress{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contactContainerAddressInside > h5, p {
+  font-size: 45px;
+}
+
+.contactContainerAddressInside > address {
+  font-size: 30px;
+}
+
+.contactContainerAddressInside {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.childCar {
+  z-index: 3;
+  margin-right: 138.77px;
+}
+
+
+
+.ordinancePhoto{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.ordinancePhoto :nth-of-type(1){
+  margin-left: 4.8%;
+  margin-right: 0.7%;
+}
+
+.buildingDescription > span{
+  margin-left: 10,4%;
+}
+
+/* footer section */
+
+.footer{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10.4% 0 10.4%;
+  
+  
+
+}
+
+footer{
+  background-color: #D6EDF0 ;
+  margin-bottom: 45px;
+  height: 100px;
+
+}
+
+.footerFirstImg {
+  
+  height: 42%;
+  
+  
+}
+
+.footer :nth-of-type(2){
+  height: 50%;
+  
+}
+
+.footer :nth-of-type(3){
+  
+  height: 53%;
+}
+
+.footer > p{
+  font-size: 14px;
+  color: #989898;
+  letter-spacing: 0px;
+  height: 52%;
+  text-align: left;
+  max-width: 40%;
+
+
+}
+.marathonSign{
+  font-size: 16px;
+  color: #EABF7B;
+  right: 0;
+  position: absolute;
+  margin-right: 4.8%;
+  margin-top: 6px;
+}
+
 
 
 
@@ -55,10 +740,9 @@ body{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#aref {
-  text-decoration: underline;
-}
 
-@media(max-width: 1440px){
-  
+
+@media (max-width: 992px) {
+  .pageContainer {
+      height: auto;
 }
